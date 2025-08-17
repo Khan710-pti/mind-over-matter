@@ -1,0 +1,13 @@
+{
+  "crons": [
+    {
+      "path": "/api/airtable/sync",
+      "schedule": "0 2 * * 1"
+    }
+  ],
+  "functions": {
+    "app/api/airtable/sync/route.ts": {
+      "maxDuration": 300
+    }
+  }
+}
